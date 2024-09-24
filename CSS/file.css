@@ -78,6 +78,7 @@ h2 {
 	max-height: 450px;
 	max-width: 700px;
 	width: 100%;
+	position: relative;
 }
 .BaliVtoroi {
 	background-image: url("https://avatars.mds.yandex.net/get-altay/3843924/2a00000176e9060eecff8a6d79022e5b2797/XXL_height");
@@ -97,7 +98,7 @@ p {
 	text-align: center;
 	color: #000000;
 	font-size: 25px;
-	background-color: #795757;
+	background-color: #b3a7a7;
 	padding: 150px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	position: relative;
@@ -118,23 +119,27 @@ footer {
 	margin-top: 20px;
 }
 form {
-	position: relative;
-	right: -75%;
-	bottom: -75%;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
 }
 
 button {
-	background-color: var(--buttonColor);
+	/* background-color: var(--buttonColor); */
 	width: 80px;
 	height: 40px;
 	border-radius: 30%;
+	border-style: none;
+	background-image: linear-gradient(rgb(218, 191, 170), rgb(141, 105, 105));
 }
 
 .kupi {
-	background-color: var(--buttonColor);
+	/* background-color: var(--buttonColor); */
+	background-image: linear-gradient(rgb(218, 191, 170), rgb(141, 105, 105));
 	width: 90px;
 	height: 40px;
 	border-radius: 25%;
+	border-style: dashed;
 }
 
 .aviasales {
