@@ -1,0 +1,160 @@
+:root {
+	--buttonColor: #ffd89e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header {
+	background: #cf3b3b;
+}
+.logotext {
+	justify-content: left;
+	color: #ffffff;
+	font-size: 35px;
+}
+.header_content {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.navList {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	padding-right: 200px;
+	list-style: none;
+	gap: 30px;
+	font-size: 20px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navLink {
+	text-decoration: none;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: #ffffff;
+}
+
+h1 {
+	text-align: center;
+	justify-content: center;
+	font-size: 32px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgba(224, 224, 224, 0.4);
+}
+
+.containerBg {
+	background-image: url("https://cdn1.ozone.ru/s3/multimedia-v/6464946403.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 69px;
+	height: 100vh;
+	max-height: 666px;
+}
+
+h2 {
+	color: #ffffff;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	align-content: center;
+	font-size: 40px;
+}
+.travelCard {
+	background-size: cover;
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	height: 50vh;
+	max-height: 450px;
+	max-width: 700px;
+	width: 100%;
+}
+.BaliVtoroi {
+	background-image: url("https://avatars.mds.yandex.net/get-altay/3843924/2a00000176e9060eecff8a6d79022e5b2797/XXL_height");
+}
+.BaliTreti {
+	background-image: url("https://i.pinimg.com/originals/ea/77/fd/ea77fd5768f320719324af8485311b01.jpg");
+}
+p {
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.textminiinfa {
+	margin-top: 20px;
+	text-align: center;
+	color: #000000;
+	font-size: 25px;
+	background-color: #795757;
+	padding: 150px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: #cf3b3b;
+	padding: 6px;
+	color: #fff;
+}
+.nanana {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+	margin-top: 20px;
+}
+form {
+	position: relative;
+	right: -75%;
+	bottom: -75%;
+}
+
+button {
+	background-color: var(--buttonColor);
+	width: 80px;
+	height: 40px;
+	border-radius: 30%;
+}
+
+.kupi {
+	background-color: var(--buttonColor);
+	width: 90px;
+	height: 40px;
+	border-radius: 25%;
+}
+
+.aviasales {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+}
+
+.preemka {
+	text-align: center;
+	background-color: #873428;
+	padding: 100px;
+	margin-top: 20px;
+}
+
+.prem {
+	display: inline;
+	margin: 15px;
+}
+
+body {
+	background-color: #e0e0e0;
+}
