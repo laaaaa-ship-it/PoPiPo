@@ -50,7 +50,7 @@ h1 {
 	justify-content: center;
 	font-size: 32px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	background-color: rgba(224, 224, 224, 0.4);
+	/* background-color: rgba(224, 224, 224, 0.4); */
 }
 
 .containerBg {
@@ -162,4 +162,73 @@ button {
 
 body {
 	background-color: #e0e0e0;
+}
+.otzivi {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #96875f;
+	position: relative;
+}
+.samiotzivi {
+	text-align: left;
+	justify-content: left;
+}
+.otziv {
+	display: flex;
+	margin-bottom: 20px;
+	align-items: left;
+	gap: 20px;
+	padding: 15px;
+	margin-left: 40px;
+}
+.girl {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #726b6b;
+	position: absolute;
+	bottom: 280px;
+	left: 11px;
+}
+.girlne {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #726b6b;
+	position: absolute;
+	bottom: 100px;
+	left: 11px;
+}
+.girlni {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #726b6b;
+	position: absolute;
+	bottom: 190px;
+	left: 11px;
+}
+.girlna {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #726b6b;
+	position: absolute;
+	bottom: 15px;
+	left: 11px;
+}
+
+.sectionContent {
+	animation: move 2s 1;
+}
+
+@keyframes move {
+	0% {
+		opacity: 0;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(100px);
+	}
 }
