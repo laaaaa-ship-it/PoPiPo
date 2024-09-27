@@ -12,12 +12,13 @@
 	margin: 0 auto;
 }
 header {
-	background: #cf3b3b;
+	background: #667d9b;
 }
 .logotext {
 	justify-content: left;
 	color: #ffffff;
 	font-size: 35px;
+	background-size: cover;
 }
 .header_content {
 	text-align: center;
@@ -98,7 +99,7 @@ p {
 	text-align: center;
 	color: #000000;
 	font-size: 25px;
-	background-color: #b3a7a7;
+	background-color: #6f7a6f;
 	padding: 150px;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	position: relative;
@@ -107,7 +108,7 @@ p {
 footer {
 	display: flex;
 	justify-content: center;
-	background-color: #cf3b3b;
+	background-color: #667d9b;
 	padding: 6px;
 	color: #fff;
 }
@@ -148,7 +149,7 @@ button {
 
 .preemka {
 	text-align: center;
-	background-color: #873428;
+	background-color: #66913e86;
 	padding: 100px;
 	margin-top: 20px;
 }
@@ -164,7 +165,7 @@ body {
 .otzivi {
 	text-align: center;
 	margin-top: 20px;
-	background-color: #96875f;
+	background-color: #978759a1;
 	position: relative;
 }
 .samiotzivi {
@@ -177,7 +178,54 @@ body {
 	align-items: left;
 	gap: 20px;
 	padding: 15px;
-	margin-left: 40px;
+	margin-left: 45px;
+}
+.boy {
+	display: flex;
+	width: 50px;
+	height: 50px;
+}
+.boy img {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 350px;
+	margin-left: 7px;
+}
+.boys img {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 170px;
+	margin-left: 7px;
+}
+.boyu img {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 260px;
+	margin-left: 7px;
+}
+.boya img {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 80px;
+	margin-left: 7px;
+}
+.cat img {
+	height: 450px;
+	width: 450px;
+	margin-left: 700px;
+	bottom: -10px;
 }
 
 .sectionContent {
