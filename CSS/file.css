@@ -125,7 +125,6 @@ form {
 }
 
 button {
-	/* background-color: var(--buttonColor); */
 	width: 80px;
 	height: 40px;
 	border-radius: 30%;
@@ -134,7 +133,6 @@ button {
 }
 
 .kupi {
-	/* background-color: var(--buttonColor); */
 	background-image: linear-gradient(rgb(218, 191, 170), rgb(141, 105, 105));
 	width: 90px;
 	height: 40px;
@@ -180,42 +178,6 @@ body {
 	gap: 20px;
 	padding: 15px;
 	margin-left: 40px;
-}
-.girl {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 2px solid #726b6b;
-	position: absolute;
-	bottom: 280px;
-	left: 11px;
-}
-.girlne {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 2px solid #726b6b;
-	position: absolute;
-	bottom: 100px;
-	left: 11px;
-}
-.girlni {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 2px solid #726b6b;
-	position: absolute;
-	bottom: 190px;
-	left: 11px;
-}
-.girlna {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 2px solid #726b6b;
-	position: absolute;
-	bottom: 15px;
-	left: 11px;
 }
 
 .sectionContent {
